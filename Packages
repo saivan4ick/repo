@@ -1,0 +1,66 @@
+Package: ch.xxtou.hudapp.jb
+Version: 2.0-13
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 640
+Depends: firmware (>= 14.0)
+Filename: debs/ch.xxtou.hudapp.jb_2.0-13_iphoneos-arm64.deb
+Size: 163526
+MD5sum: 2a4098497d0d1198a4e4d1915004d555
+SHA1: f3886f45e59cdb4c3213ea0fe9a476c409058f82
+SHA256: bf72cec5838030da646cf7d6cb0a212702326a8c9baecc4f5a9999229a61da19
+Section: Tweaks
+Description: Troll your speed, but jailbroken.
+Author: Lessica <82flex@gmail.com>
+Name: TrollSpeed JB
+
+Package: ch.xxtou.hudapp.jb
+Version: 2.0-13
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 640
+Depends: firmware (>= 14.0)
+Filename: debs/ch.xxtou.hudapp.jb_2.0-13_iphoneos-arm64e.deb
+Size: 163420
+MD5sum: a41137a8d5135568a711e1fcb3f0cb6c
+SHA1: f9a419f319b26fc8145a6676bd0573be46e5a348
+SHA256: baf384c35e5495658baa9a77b3c8b2f012ee5f617961534a80de0a1be082b7ac
+Section: Tweaks
+Description: Troll your speed, but jailbroken.
+Author: Lessica <82flex@gmail.com>
+Name: TrollSpeed JB
+
+Package: com.opa334.trollstorehelper
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 4400
+Filename: debs/com.opa334.trollstorehelper_2.1.1_iphoneos-arm.deb
+Size: 1920108
+MD5sum: c3f9f3952a7615a4afce3bca735135ed
+SHA1: a5a119a73aafcacf16e17f45771ecb40191a3816
+SHA256: 3800d7710c62be7c70a68a4c7aabdb6e1a34b60183b1072603527b4e8253f69d
+Section: Applications
+Description: Helper utility to install and manage TrollStore!
+Author: opa334
+Name: TrollStore Helper
+
+Package: com.spark.snowboard
+Version: 1.4.2~Beta4
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 4884
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: debs/com.spark.snowboard_1.4.2_Beta4.deb
+Size: 1544346
+MD5sum: 0ccc95da2f2e0accbbad83e80d67a9fd
+SHA1: 2c098229be61c82c02bba61dcec46f70b941635b
+SHA256: 3503067822d9c332d2ca77d3d769eabf0da492937c47cabfe3d8964bce083916
+Section: Tweaks
+Description: Snowboard theming engine
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard
+

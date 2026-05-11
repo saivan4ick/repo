@@ -6,11 +6,6 @@ __pycache__/
 venv/
 .venv/
 
-# Generated files repo
-Packages
-Packages.bz2
-Packages.xz
-
 # Windows
 Thumbs.db
 desktop.ini

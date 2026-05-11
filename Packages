@@ -64,6 +64,23 @@ Description: Snowboard theming engine
 Author: Spark & Dennis D. Bednarz
 Name: SnowBoard
 
+Package: ru.rj.vkreborn
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Artem Kasper
+Installed-Size: 11528
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/ru_rj_vkreborn_2_0_iphoneos-arm64.deb
+Size: 6936932
+MD5sum: 785e195103021e270432eade34ee446b
+SHA1: f860a346d6232ab708fd480852f9305ee85dd06c
+SHA256: 8433d73525c65d82999c291c2536a684ed8a2691284d9236e372d9115211ae1e
+Section: Tweaks
+Priority: optional
+Description: Дополнение к клиенту VK
+Author: Artem Kasper
+Name: VKReborn
+
 Package: wiki.qaq.colorfulwallpaperx
 Version: 5.6
 Architecture: iphoneos-arm

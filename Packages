@@ -64,3 +64,51 @@ Description: Snowboard theming engine
 Author: Spark & Dennis D. Bednarz
 Name: SnowBoard
 
+Package: wiki.qaq.colorfulwallpaperx
+Version: 5.6
+Architecture: iphoneos-arm
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 6016
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/wiki.qaq.colorfulwallpaperx_5.6_iphoneos-arm.deb
+Size: 1444734
+MD5sum: 2137227af8b966ff2c6e26fae7505231
+SHA1: 9fabaf3ec1b79933909ea292f0267d88d281cad6
+SHA256: 0622eb82dd0edd928f63a7980697035a50bbe0858e80a7a3260eea1a48fa7da6
+Section: Tweaks
+Description: Dynamic wallpaper with colorful effects.
+Author: Lessica <82flex@gmail.com>
+Name: Colorful Wallpaper X
+
+Package: wiki.qaq.colorfulwallpaperx
+Version: 5.6
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 6016
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/wiki.qaq.colorfulwallpaperx_5.6_iphoneos-arm64e.deb
+Size: 1449396
+MD5sum: 9ea84fe740b3380ad188743bf38044c7
+SHA1: 6eaf0e835d6dbd979d2e51c43c835a3d3658dd38
+SHA256: 1b6ba09b706a2e80930982ebf9bcb1487bf9c47dcb0ab20615997fe704f4d761
+Section: Tweaks
+Description: Dynamic wallpaper with colorful effects.
+Author: Lessica <82flex@gmail.com>
+Name: Colorful Wallpaper X
+
+Package: wiki.qaq.colorfulwallpaperx
+Version: 5.6
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 6016
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/wiki.qaq.colorfulwallpaperx_5.6_iphoneos-arm64.deb
+Size: 1445826
+MD5sum: 447cedceda85e20c45f3f9861dfcc156
+SHA1: 8c6c508971ac50d691bc302509f5b04d5c2625aa
+SHA256: 7f73f0ebbab71e6f516180f15a2d02ce1dc0a31b71fc49ff313a698b7aabf32a
+Section: Tweaks
+Description: Dynamic wallpaper with colorful effects.
+Author: Lessica <82flex@gmail.com>
+Name: Colorful Wallpaper X
+

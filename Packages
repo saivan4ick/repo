@@ -30,6 +30,71 @@ Description: Troll your speed, but jailbroken.
 Author: Lessica <82flex@gmail.com>
 Name: TrollSpeed JB
 
+Package: com.0xkuj.3dappversionspoofer
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: 0xkuj
+Installed-Size: 408
+Depends: com.opa334.altlist
+Filename: debs/com.0xkuj.3dappversionspoofer_2.1.1_iphoneos-arm.deb
+Size: 81720
+MD5sum: 01f96168b26eec35f7cd096b74c2ab5e
+SHA1: 27023a721224294aa01e727795dfed4a3cd78de9
+SHA256: a6dedf7396f30ae493ec0f7412da028bef5e82929c08bbc66473d6c4e087a63b
+Section: Tweaks
+Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
+Author: 0xkuj
+Name: 3DAppVersionSpoofer
+
+Package: com.leeksov.aemulocrack
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: Leeksov
+Installed-Size: 436
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/AemuloCrack v0.0.1 rootful.deb
+Size: 31024
+MD5sum: c1c5e222377f3b74ef6c17112485c671
+SHA1: cd34eedf1ab3207ca64e5160d24d64ae24cbf549
+SHA256: 10ebbe2c91cf96ad77e095452c1926d3b9bea2705c3ffc14826122f43f8c0c96
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Leeksov
+Name: aemulocrack
+
+Package: com.netskao.swiftgramcrack
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 240
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/com.netskao.swiftgramcrack_1.1-4_iphoneos-arm64.deb
+Size: 60130
+MD5sum: ad19921888abc63e46d227f2565e272e
+SHA1: c4c17b46d827d2c47a6cee9d75f3dd50e20eef22
+SHA256: 2ea89f0a0d285c4db6e47a20ad9b0edda3981415eea42d44bbff2dd416ddf6f5
+Section: Netskao-Tweaks
+Description: Swiftgram Pro. 附加解除下载保护/解除截图保护, 支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
+Author: Netskao
+Name: Swiftgram Crack
+
+Package: com.netskao.swiftgramcrack
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 240
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/SwiftgramCrack_1.1-4.deb
+Size: 60200
+MD5sum: b061fbbde5dd53891efde4b747067cb4
+SHA1: 65eab1ef75b47a187818fb731aa616b737bef869
+SHA256: 43356cd39d71d725b7d7afac66da4c32a686c8088a7c1942910c9144ec5ad60f
+Section: Netskao-Tweaks
+Description: Swiftgram Pro. 附加解除下载保护/解除截图保护, 支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
+Author: Netskao
+Name: Swiftgram Crack
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.swiftgramcrack.json
+
 Package: com.opa334.trollstorehelper
 Version: 2.1.1
 Architecture: iphoneos-arm
@@ -63,6 +128,133 @@ Section: Tweaks
 Description: Snowboard theming engine
 Author: Spark & Dennis D. Bednarz
 Name: SnowBoard
+
+Package: com.sugiuta.winpass
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: sugiuta
+Installed-Size: 1580
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/com.sugiuta.winpass_1.0.0_iphoneos-arm.deb
+Size: 1115660
+MD5sum: 7e1c98d3468e26991dc6186a3b702712
+SHA1: 5f312a16041a904e13058484febb0cb4497742c2
+SHA256: e2f48681916ee8fef0ad60bab39a47bebb050ab42961b5f8353942e7a8065876
+Section: Tweaks
+Description: Change the unlock screen to WindowsXP style for iOS13 above. Hacked by untether.
+Author: sugiuta
+Depiction: https://sugiuta.github.io/descriptions/index.html?p=com.sugiuta.winpass
+Icon: https://sugiuta.github.io/descriptions/com.sugiuta.winpass/WinPass_icon.png
+Name: WinPass
+
+Package: emt.paisseon.satella
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: Lilliana
+Installed-Size: 480
+Depends: firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
+Conflicts: ai.paisseon.satella
+Filename: debs/emt.paisseon.satella_1.4.1_iphoneos-arm.deb
+Size: 63392
+MD5sum: 20b3de2403dcd67161377779d8f87f5b
+SHA1: c5488e51ad2ea799df6affe925e8ed1d30a6587f
+SHA256: f2cc54425d460a4554e2b1365c415122a23b3dc7535ef05943d0aac6b2394a2e
+Section: Tweaks (Piracy)
+Description: Modern in-app purchase cracker
+Author: Lilliana
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/satella.json&name=Satella&dev=Paisseon
+Icon: https://paisseon.github.io/icons/satella.png
+Name: Satella
+Sileodepiction: https://paisseon.github.io/depictions/satella.json
+
+Package: emt.paisseon.satella
+Version: 1.8.1
+Architecture: iphoneos-arm64
+Maintainer: Lilliana
+Installed-Size: 488
+Depends: mobilesubstrate, firmware (>= 12.2), preferenceloader, com.opa334.altlist
+Filename: debs/emt.paisseon.satella_1.8.1_iphoneos-arm64.deb
+Size: 140028
+MD5sum: b469838cfbbb680cf5fcc954e023e7c3
+SHA1: 8d0e7e73007a2427278c73081fb188b6b35ae9fb
+SHA256: 60b9f12064b78be44b79a06bd954ebb807cdd684ac2340ab5c17a9a00969fc29
+Section: Tweaks (Piracy)
+Description: Modern in-app purchase cracker
+Author: Lilliana
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Satella.json&name=Satella&dev=Lilliana
+Icon: https://paisseon.github.io/icons/Satella.png
+Name: Satella
+Sileodepiction: https://paisseon.github.io/depictions/Satella.json
+
+Package: netskao.limneoscrack-rootless
+Version: 1.1-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/netskao.limneoscrack-rootless_1.1-3_iphoneos-arm64.deb
+Size: 10428
+MD5sum: 5fc16d68bbea3dafe3322856fea85344
+SHA1: 0327114408bf645a852c3aa77ded2e1a827b0dc6
+SHA256: 074310d74742cc1b3a5df36e1a633a88880e120ecf94e3222272f691a06b19d6
+Section: Netskao-Cracks
+Description: 解锁Limneos所有插件全功能
+Author: Netskao
+Name: Limneos Crack-Rootless
+
+Package: ru.danpashin.twackup
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Даниил <admin@danpashin.ru>
+Installed-Size: 404
+Filename: debs/ru.danpashin.twackup_0.0.1_iphoneos-arm64.deb
+Size: 75598
+MD5sum: 88b548138da99a1bf52b3f1987144ad9
+SHA1: 2bc99f634ff111b8bfbea3e01b4048e8ad9b10ef
+SHA256: c1a0586140d019ba0aa39ce0ab6db36493aa5009954eb5e771e16b2788ec75d9
+Section: System
+Description: An awesome tool of some sort!!
+Tag: role::hacker
+Author: Даниил <admin@danpashin.ru>
+Name: TwackupCLI
+
+Package: ru.danpashin.twackup
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Maintainer: DanP
+Installed-Size: 5043
+Depends: firmware (>= 3.0)
+Filename: debs/ru.danpashin.twackup_2.0.2_iphoneos-arm64.deb
+Size: 2404446
+MD5sum: a329de9d9df78a9999d659a65e36ae94
+SHA1: 2f32e3f32283cd176f69088f1a35b573a44ce79e
+SHA256: 2ae36bc14a59f80723edac231cac4795702fd3a1f27e9c2193764b85411cf49b
+Section: Utilities
+Priority: optional
+Homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=twackupDp
+Description: Safe and fast iOS CLI utility for rebuilding DEBs and backing up packages
+License: GPL-3.0-only
+Name: Twackup (CLI)
+
+Package: ru.rejail.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/ru.rejail.icleanerpro_7.10.0_iphoneos-arm64.deb
+Size: 1102220
+MD5sum: da9f493684ea97a2d27824d373c7969b
+SHA1: 2aec1cf6d6b86ce1ed25ae73b6560d638fcd377e
+SHA256: 75e5bf68cdaf2a53b2e8c7105fb54e2099d56adc0cce53c1a38539229f330246
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
 
 Package: ru.rj.vkreborn
 Version: 2.0

@@ -13,24 +13,37 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          lfs: true 
+          lfs: true
 
       - name: Install dpkg tools
         run: sudo apt-get update && sudo apt-get install -y dpkg-dev bzip2 xz-utils
 
-      - name: Debug - Check deb files
+      - name: Remove corrupted deb files
         run: |
-          echo "=== Проверка типов файлов ==="
-          file debs/*.deb || echo "Файлы .deb не найдены!"
-          echo "=== Проверка прав доступа ==="
-          ls -l debs/
+          echo "Проверка целостности .deb файлов"
+          removed=0
+          for deb in debs/*.deb; do
+            # Если файлов нет, цикл отработает с литералом — пропускаем
+            [ -e "$deb" ] || continue
+            
+            # Смотрим тип файла
+            type_info=$(file -b "$deb")
+            
+            if echo "$type_info" | grep -q "Debian binary package"; then
+              : # Всё ок, пропускаем
+            else
+              echo "❌ Удаляю битый файл: $(basename "$deb")"
+              echo "   Тип определён как: $type_info"
+              rm -f "$deb"
+              removed=$((removed + 1))
+            fi
+          done
+          echo "Итого удалено битых файлов: $removed"
+          echo "Осталось валидных .deb: $(ls debs/*.deb 2>/dev/null | wc -l)"
 
-      - name: Fix permissions and Generate Packages
+      - name: Generate Packages index
         run: |
-          chmod -R 644 debs/
-          
           dpkg-scanpackages -m debs /dev/null > Packages
-          
           bzip2 -kf Packages
           xz -kf Packages
 
@@ -39,6 +52,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f Packages Packages.bz2 Packages.xz
-          
           git diff --staged --quiet || git commit -m "Update Packages index"
           git push
